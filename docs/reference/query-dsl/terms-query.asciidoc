@@ -97,7 +97,7 @@ GET /tweets/_search
         "terms" : {
             "user" : {
                 "index" : "users",
-                "type" : "_doc",
+                "type" : "user",
                 "id" : "2",
                 "path" : "followers"
             }
